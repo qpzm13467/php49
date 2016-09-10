@@ -1,0 +1,274 @@
+[ 2016-09-05T18:29:53+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+
+[ 2016-09-05T18:29:58+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-09-05T18:32:51+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-09-05T18:33:23+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `comment` LIMIT 1  
+
+[ 2016-09-05T18:35:14+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `cid` FROM `comment` WHERE ( fcid =  ) LIMIT 1  
+
+[ 2016-09-05T18:35:55+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-09-05T18:36:16+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-09-05T18:44:19+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-09-05T18:46:47+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-09-05T18:47:41+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `cid` FROM `comment` WHERE ( fcid =  ) 
+
+[ 2016-09-05T18:48:27+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-09-05T18:48:47+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-09-05T18:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-09-05T18:50:08+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-09-05T18:50:20+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-09-05T18:50:30+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-09-05T18:56:30+08:00 ] 127.0.0.1 /index.php/Admin/Comment/movieOne
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-09-05T18:57:25+08:00 ] 127.0.0.1 /index.php/Admin/Comment/movieOne
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-09-05T19:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-09-05T19:09:43+08:00 ] 127.0.0.1 /index.php/Admin/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-09-05T19:09:56+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-09-05T19:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-09-05T19:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 模板不存在:./Application/Admin/View/Comment/delComment.html
+
+[ 2016-09-05T19:15:41+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 模板不存在:./Application/Admin/View/Comment/delComment.html
+
+[ 2016-09-05T19:15:51+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `cid` FROM `comment` WHERE ( fcid =  ) 
+
+[ 2016-09-05T19:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-09-05T19:17:53+08:00 ] 127.0.0.1 /index.php/Admin/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-09-05T19:17:58+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: 模板不存在:./Application/Admin/View/Comment/delComment.html
+
+[ 2016-09-05T19:18:36+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-09-05T19:18:50+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-09-05T19:21:14+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-09-05T19:21:18+08:00 ] 127.0.0.1 /index.php/Admin/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-09-05T19:21:44+08:00 ] 127.0.0.1 /index.php/Admin/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-09-05T19:21:51+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 模板不存在:./Application/Admin/View/Comment/delComment.html
+
+[ 2016-09-05T19:22:11+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-09-05T19:22:59+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 模板不存在:./Application/Admin/View/Comment/delComment.html
+
+[ 2016-09-05T19:23:49+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 模板不存在:./Application/Admin/View/Comment/delComment.html
+
+[ 2016-09-05T19:25:00+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-09-05T19:25:03+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-09-05T19:25:44+08:00 ] 127.0.0.1 /index.php/Admin/Comment/delComment/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+
+[ 2016-09-05T19:25:46+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-09-05T19:31:32+08:00 ] 127.0.0.1 /index.php/Admin/Comment/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:31:32+08:00 ] 127.0.0.1 /index.php/Admin/Comment/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:31:32+08:00 ] 127.0.0.1 /index.php/Admin/Comment/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Comment/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:31:35+08:00 ] 127.0.0.1 /index.php/Admin/Comment/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+ERR: 非法操作:search
+
+[ 2016-09-05T19:54:42+08:00 ] 127.0.0.1 /index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-09-05T19:56:10+08:00 ] 127.0.0.1 /index.php/Admin/Comment/movieOne
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+

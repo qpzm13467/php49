@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/js/ue/themes/default/css/umeditor.css">
+	<script type="text/javascript" src="__PUBLIC__/admin/js/ue/third-party/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/admin/js/ue/umeditor.config.js"></script>
+	<script src="__PUBLIC__/admin/js/ue/umeditor.js" type="text/javascript"></script>
+	<script type="text/javascript" src="__PUBLIC__/admin/js/layer/layer.js"></script>
+	
+	
+</head>
+<body>	
+<div style="width:800px">
+<a href="javascript:;" class="a">a</a>
+	<p id="CommentPost">发表评论</p>
+	<form method="post" action="{:U('add')}" >
+		<script name="ccontent" type="text/plain" id="myEditor" style="width:800px;height:240px;">
+			<p class="p">这里可以输入些内容</p>
+		</script>
+		<input type="hidden" value="{$mid}" name="mid"></input>
+		<input type="hidden" value="0" name="fcid" class="fcid"></input>
+		<input type="submit" value="畅言一下" name="send" class="send"></input>
+	</form>
+</div>
+
+<div style="width:800px;">
+	<p style="color: blue">评论<empty name="count.0.uid">0<else />{$count.0.uid}</empty>人参与，共<empty name="count.0.cid">0<else />{$count.0.cid}</empty>条评论</p>
+	<p>最新评论</p>
+	<volist	name='comments' id='vol'>
+	<div border="1">
+	<ul style="list-style:none;border-bottom:1px dashed #D8D4D4">
+		<li style="color: blue">{$vol.user}</li>
+		<li style="font-size: 14px;line-height: 22px">{$vol.date|date='Y-m-d H:i:s',###}<a class="hf" data="{$vo.id}" href="#CommentPost" style="text-decoration:none;font-size: 14px">回复</a></li>
+		<notempty name="vol.fcomment">
+					<volist name='vol.fcomment' id='vo'>
+					<ul style="list-style:none;background-color:#DFFBC7;border: 1px solid #D8D4D4;">
+						<li style="color: blue">{$vo.user}</li>	
+						<li style="font-size: 14px;line-height: 22px">发布于{$vol.date|date='Y-m-d H:i:s',###}<a class="hf" data="{$vo.id}" href="#CommentPost" style="text-decoration:none;font-size: 14px">回复</a>
+						</li>					
+						<li style="font-size: 20px;height: 50px">{$vo.content}</li>	
+					</ul>
+					</volist>			
+			</notempty>
+		<li style="font-size: 20px;height: 50px">{$vol.content}</li>
+			 		
+	</ul>
+	</div>
+	</volist>
+</div>
+<script type="text/javascript">
+var um = UM.getEditor('myEditor');
+
+	$(function(){		
+		$('.hf').on('click',function(){
+			var id = $(this).attr('data');		
+			$('.fcid').val(id);		
+		});
+	});
+	
+</script>
+</body>
+</html>
